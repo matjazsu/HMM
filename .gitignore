@@ -1,0 +1,14 @@
+# Compiled source #
+###################
+*.class
+	
+# Eclipse generated files #
+###########################
+.classpath
+.project
+.settings
+	
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
