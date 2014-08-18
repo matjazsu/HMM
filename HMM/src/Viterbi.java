@@ -104,7 +104,7 @@ public class Viterbi {
 				}
 				
 				tempPathValues[currentState] = maxValue;
-				this.m_parentState[currentOutput][time - 1] = parrentIndex;
+				this.m_parentState[currentState][time - 1] = parrentIndex;
 			}
 			
 			for(int currentState = 0; currentState < this.m_numStates - 1; currentState++)

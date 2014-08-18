@@ -28,7 +28,7 @@ public class RunViterbi {
 		// get file name
 		String file_name = "";
 		try {
-		    file_name = "/Users/matjaz/GitHub Projects/HMM/Testni primeri/robot_no_momemtum.data";
+		    file_name = argv[0];
 		} catch (Exception e) {
 		    System.err.println("Arguments: <file_name>");
 		    return;
